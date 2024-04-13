@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import FooterContent from "@/public/components/footer-content.component.vue";
 </script>
 
 <template>
@@ -15,6 +16,10 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <footer>
+    <FooterContent />
+  </footer>
 </template>
 
 <style scoped>
